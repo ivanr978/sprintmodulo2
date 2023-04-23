@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--styles.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--fuentes de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&display=swap" rel="stylesheet">
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js "></script>
+
+    <!--Plugin DataTable-->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+
+    <title>Estadísticas</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container-fluid col-lg-10">
+            <a class="navbar-brand dis" href="/index.html">Te lo vendo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estadisticas.html">Productos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="container mt-2">
+        <h2 class="display-4">Estos productos tenemos para ofrecer</h2>
+        <table class="table" id="estadisticas">
+            <thead>
+                <tr>
+                    <th scope="col ">#</th>
+                    <th scope="col ">Producto</th>
+                    <th scope="col ">Neto</th>
+                    <th scope="col ">Iva</th>
+                    <th scope="col ">Total</th>
+                    <th scope="col ">Stock Disponible</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row ">1</th>
+                    <td>Sistema hidropónico completo de 4 plantas </td>
+                    <td>$150</td>
+                    <td>$30</td>
+                    <td>$180</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <th scope="row ">2</th>
+                    <td>Nutrientes para cultivo hidropónico de 1 litro </td>
+                    <td>$30</td>
+                    <td>$6</td>
+                    <td>$36</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <th scope="row ">3</th>
+                    <td>Kit de iluminación LED de 100W para cultivo en interior </td>
+                    <td>$80</td>
+                    <td>$16</td>
+                    <td>$96</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <th scope="row ">4</th>
+                    <td>Sustrato de fibra de coco de 10 litros</td>
+                    <td>$15</td>
+                    <td>$3</td>
+                    <td>$18</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <th scope="row ">5</th>
+                    <td>Solución de limpieza y desinfección de sistemas hidropónicos de 500 ml </td>
+                    <td>$25</td>
+                    <td>$5</td>
+                    <td>$30</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <th scope="row ">6</th>
+                    <td>Medidor de pH digital con calibración automática </td>
+                    <td>$40</td>
+                    <td>$8</td>
+                    <td>$48</td>
+                    <td>135</td>
+                </tr>
+                <tr>
+                    <th scope="row ">7</th>
+                    <td>Juego de herramientas de poda para cultivo hidropónico</td>
+                    <td>$20</td>
+                    <td>$4</td>
+                    <td>$24</td>
+                    <td>58</td>
+                </tr>
+                <tr>
+                    <th scope="row ">8</th>
+                    <td>Ventilador oscilante de pared para circulación de aire </td>
+                    <td>$35</td>
+                    <td>$7</td>
+                    <td>$42</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <th scope="row ">9</th>
+                    <td>Insecticida orgánico de amplio espectro para cultivo hidropónico de 500 ml </td>
+                    <td>$45</td>
+                    <td>$9</td>
+                    <td>$54</td>
+                    <td>41</td>
+                </tr>
+                <tr>
+                    <th scope="row ">10</th>
+                    <td>Filtro de agua de carbón activado para sistemas hidropónicos </td>
+                    <td>$30</td>
+                    <td>$6</td>
+                    <td>$36</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <th scope="row ">11</th>
+                    <td>Temporizador digital para controlar el riego y la iluminación</td>
+                    <td>$25</td>
+                    <td>$5</td>
+                    <td>$30</td>
+                    <td>33</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+
+    <div class="container ">
+        <footer class="py-3 my-4 ">
+            <p class="text-center text-muted">Casa matriz: La Serena, Sucursales: Tome y Curico.</p>
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+            
+                <li class="nav-item"><a href="https://github.com/JPMB91" class="nav-link px-2 text-muted">Juan Maldonado</a></li>
+                <li class="nav-item"><a href="https://github.com/bryanpkfr" class="nav-link px-2 text-muted">Bryan Neculfilo</a></li>
+                <li class="nav-item"><a href="https://github.com/ivanr978" class="nav-link px-2 text-muted">Ivan Rodriguez</a></li>
+               
+            </ul>
+            <p class="text-center text-muted ">&copy; 2023</p>
+        </footer>
+    </div>
+
+    <!--Bootstrap .js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <!--script.js-->
+    <script src="assets/js/estadisticas.js "></script>
+
+</body>
+
+</html>
+
+<!--
+✔️ Crea una nueva página de nombre estadísticas.html
+✔️ Aplica sobre ésta el mismo estilo de las otras páginas.
+- Crea una tabla de cinco columnas y al menos diez filas. 
+La idea es que la llenes con datos
+escogidos por el equipo.
+- Sobre la tabla creada en el punto anterior, aplica el plugin DataTable.
+- Verifica el resultado obtenido.
+-->

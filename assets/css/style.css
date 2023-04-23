@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: rgb(153, 220, 111);
+    font-family: 'Chivo Mono', monospace !important ;
+}
+main {
+    height: 80%;
+}
+
+section {
+    text-align: center;
+}
+form {
+    background-color: #eb9f1c;
+}
+
