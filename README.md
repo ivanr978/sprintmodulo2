@@ -11,6 +11,7 @@ Tecnologías y herramientas utilizadas:
 - Fancybox, DataTable
 
 Integrantes:
-- Juan Maldonado
+- Juan Maldonado  https://github.com/JPMB91
 - Bryan Neculfilo https://github.com/bryanpkfr
 - Ivan Rodriguez https://github.com/ivanr978
+- 
